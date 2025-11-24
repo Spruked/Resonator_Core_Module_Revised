@@ -121,6 +121,42 @@ curl -X POST "http://localhost:8000/resonate" \
 
 ---
 
+## 🐳 Docker Deployment
+
+### Build and Run with Docker
+```bash
+# Build the Docker image
+docker build -t resonator-core .
+
+# Run the container
+docker run -p 8000:8000 resonator-core
+```
+
+- The API will be available at `http://localhost:8000`
+- Interactive docs at `http://localhost:8000/docs`
+- Dashboard at `http://localhost:8000/dashboard`
+
+### Docker Compose (Optional)
+If you prefer using Docker Compose, create a `docker-compose.yml`:
+
+```yaml
+version: '3.8'
+services:
+  resonator:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=production
+```
+
+Then run:
+```bash
+docker-compose up --build
+```
+
+---
+
 ## 🔗 Plug-and-Play Integration
 
 The **Resonator** can be imported into any unified cognitive module:

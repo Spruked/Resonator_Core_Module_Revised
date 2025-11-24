@@ -1,15 +1,18 @@
 Folder PATH listing for volume DALS_DATA
 Volume serial number is DCFC-5C09
 T:.
+│   .dockerignore
 │   .gitignore
 │   api.py
 │   deductive_resonator.py
+│   Dockerfile
 │   inductive_resonator.py
 │   intuitive_resonator.py
 │   LICENSE
 │   load_test.py
 │   pyramidvault.log
 │   README.md
+│   requirements.txt
 │   resonator.py
 │   resonator_array.py
 │   resonator_pyramid.py
