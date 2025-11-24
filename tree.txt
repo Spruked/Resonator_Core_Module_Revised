@@ -1,0 +1,36 @@
+Folder PATH listing for volume DALS_DATA
+Volume serial number is DCFC-5C09
+T:.
+│   .gitignore
+│   api.py
+│   deductive_resonator.py
+│   inductive_resonator.py
+│   intuitive_resonator.py
+│   LICENSE
+│   load_test.py
+│   pyramidvault.log
+│   README.md
+│   resonator.py
+│   resonator_array.py
+│   resonator_pyramid.py
+│   resonator_vault.py
+│   synaptic_nodes.py
+│   test_full_scale.py
+│   test_rigorous.py
+│   tree.txt
+│   utils.py
+│   __init__.py
+│
+└───__pycache__
+        api.cpython-311.pyc
+        deductive_resonator.cpython-311.pyc
+        inductive_resonator.cpython-311.pyc
+        intuitive_resonator.cpython-311.pyc
+        reasonator.cpython-311.pyc
+        resonator.cpython-311.pyc
+        resonator_array.cpython-311.pyc
+        resonator_pyramid.cpython-311.pyc
+        resonator_vault.cpython-311.pyc
+        synaptic_nodes.cpython-311.pyc
+        utils.cpython-311.pyc
+        
